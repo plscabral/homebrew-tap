@@ -1,28 +1,28 @@
 class TucanoProxy < Formula
   desc "Local HTTP(S) inspection for terminals, browsers and coding agents"
   homepage "https://github.com/plscabral/tucano-proxy"
-  version "0.2.9"
+  version "0.2.10"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/plscabral/tucano-proxy/releases/download/v0.2.9/tucano-proxy-aarch64-apple-darwin.tar.gz"
-      sha256 "63da752c3f51c846339997bea751ffa4d76afb1f9d95d749a876e4ec55125771"
+      url "https://github.com/plscabral/tucano-proxy/releases/download/v0.2.10/tucano-proxy-aarch64-apple-darwin.tar.gz"
+      sha256 "45d76e9f3c1f8ff94594f3050345cdc385bb810a77d43dd89eb45d13f5bb2a12"
     end
     on_intel do
-      url "https://github.com/plscabral/tucano-proxy/releases/download/v0.2.9/tucano-proxy-x86_64-apple-darwin.tar.gz"
-      sha256 "f3ce1160596541a9adde790560160a566f94187954e634bd1b49f3071791dc88"
+      url "https://github.com/plscabral/tucano-proxy/releases/download/v0.2.10/tucano-proxy-x86_64-apple-darwin.tar.gz"
+      sha256 "7555dc1a96b1fa6356238fd6368eeef489424f7799f0c5bc093e749d3bbe4643"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/plscabral/tucano-proxy/releases/download/v0.2.9/tucano-proxy-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bc760646408f31df4cc8ea24d139fe4ac2d6faf2404ede1344dc99fdcbb38250"
+      url "https://github.com/plscabral/tucano-proxy/releases/download/v0.2.10/tucano-proxy-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "52eb6c02b8ca2a79f6bfe2242116f19f72720ee13c1a3cc526238954c994aa35"
     end
     on_intel do
-      url "https://github.com/plscabral/tucano-proxy/releases/download/v0.2.9/tucano-proxy-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1cb0eee44e7f64bb5bd035b2f61fc4ff00b220f0b62eee8144de92541699504b"
+      url "https://github.com/plscabral/tucano-proxy/releases/download/v0.2.10/tucano-proxy-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b8555b389e2ab18d0749ea7c85bbc963c8b3f2595ebe3b220da4ded6264a537a"
     end
   end
 
